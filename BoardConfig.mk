@@ -17,6 +17,9 @@
 
 TARGET_OTA_ASSERT_DEVICE := SM-N900R4,hlteusc
 
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := hlteusc
+
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8974_sec_hlte_usc_defconfig
 
